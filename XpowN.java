@@ -9,7 +9,6 @@ public class XpowN {
         int xPownm1=calcPower(x, n-1);
         int xPown= x * xPownm1;
         return xPown;
-
                          
     }
     public static void main(String[] args) {
