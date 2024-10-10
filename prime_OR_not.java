@@ -11,12 +11,13 @@ public class prime_OR_not{
            int n=sc.nextInt();
 
            int score=0;
-           for(int div=1;div<=n;div++){
+           for(int div=2;div*div<=n;div++){
             if(n%div==0){
                 score++;
+                break;
             }
            }
-           if(score==2){
+           if(score==0){
             System.out.println("prime number");
            }
            else{
